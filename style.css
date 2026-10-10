@@ -641,3 +641,19 @@ body {
   backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);cursor:pointer}
 .relock-btn.visible{display:inline-flex}
 .relock-btn:active{transform:scale(.96)}
+
+/* --- Review-Fixes --- */
+body, .lock-title, .hero-title, .stat-number, .letter-body { font-variant-numeric: lining-nums; }
+.pin-input-group { gap: 8px; }
+.pin-digit { width: auto; flex: 1 1 0; min-width: 0; max-width: 52px; }
+.btn-hint { font-family: inherit; text-underline-offset: 3px; }
+.btn-hint:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 6px; }
+.chart-container { overflow: visible; padding: 4px 0 0; }
+.chart-svg { min-width: 0; height: auto; }
+.chart-note { font-size: 13px; color: var(--text-muted); margin-top: 10px; line-height: 1.5; }
+.letter-body { font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; font-size: 16px; line-height: 1.75; }
+.letter-body p { margin-bottom: 14px; }
+.letter-greeting { font-family: 'Playfair Display', Georgia, serif; font-size: 24px; }
+.letter-closing { font-family: 'Playfair Display', Georgia, serif; font-size: 18px; }
+.event-speaker { font-style: normal; font-weight: 700; color: var(--text-main); }
+.event-quote { display: block; margin-top: 6px; }

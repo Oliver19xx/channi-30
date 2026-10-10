@@ -1414,28 +1414,31 @@ const STORY_DATA = {
       "period": "April 2017 – Ende 2018",
       "title": "Der Funke von Tag 1: Unser gemeinsamer Humor & die Maiwoche",
       "core_theme": "Die Geburt unserer Freundschaft auf derselben Wellenlänge",
-      "description": "Schon in den ersten Nachrichten zeigt sich Channis herrlich trockener Humor ('Das ist nicht das Lied ?:D'). Nur zehn Tage später folgt Channis Einladung zur Osnabrücker Maiwoche – und legt den Grundstein für gemeinsame Feiernächte, legendäre Quatsch-Aktionen und eine Vertrautheit, die von Tag 1 an einfach da war.",
+      "description": "Schon in den ersten Nachrichten zeigt sich Channis herrlich trockener Humor („Das ist nicht das Lied ?:D“). Nur zehn Tage später folgt Channis Einladung zur Osnabrücker Maiwoche – und legt den Grundstein für gemeinsame Feiernächte, legendäre Quatsch-Aktionen und eine Vertrautheit, die von Tag 1 an einfach da war.",
       "pivotal_events": [
         {
           "date": "2017-04-30",
           "label": "Die erste Begegnung im Chat",
           "sender": "Channi & Olli",
-          "highlight_quote": "Channi: 'Das ist nicht das Lied ?:D'",
-          "context": "Channis unnachahmlich trockene Art bringt das Eis sofort zum Schmelzen."
+          "highlight_quote": "Das ist nicht das Lied ?:D",
+          "context": "Channis unnachahmlich trockene Art bringt das Eis sofort zum Schmelzen.",
+          "speaker": "Channi"
         },
         {
           "date": "2017-05-10",
           "label": "Channis Einladung zur Maiwoche",
           "sender": "Channi",
           "highlight_quote": "Freitag Maiwoche?",
-          "context": "Die Osnabrücker Maiwoche wird zum ersten festen gemeinsamen Ritual unseres Freundeskreises."
+          "context": "Die Osnabrücker Maiwoche wird zum ersten festen gemeinsamen Ritual unseres Freundeskreises.",
+          "speaker": "Channi"
         },
         {
           "date": "2017-08-31",
           "label": "Gemeinsame Feiernächte & Vertrautheit",
           "sender": "Wir",
-          "highlight_quote": "Olli: 'Ich möchte mit dir mal in entspannter Umgebung feiern gehen.'",
-          "context": "Der August 2017 ist mit 142 Nachrichten unser erster großer gemeinsamer Sommermonat."
+          "highlight_quote": "Ich möchte mit dir mal in entspannter Umgebung feiern gehen.",
+          "context": "Der August 2017 ist mit 142 Nachrichten unser erster großer gemeinsamer Sommermonat.",
+          "speaker": "Olli"
         }
       ],
       "featured_audio": null
@@ -1452,16 +1455,18 @@ const STORY_DATA = {
           "date": "2020-06-05",
           "label": "Channis Uni-Einsatz: Füreinander da sein",
           "sender": "Channi",
-          "highlight_quote": "Hi, also es ist so, ich brauche zwei Seiten aus einem bestimmten Buch... ein Referat über Soziologie... Jetzt suche ich jemanden, der Zugriff hat...",
+          "highlight_quote": "Hi, also es ist so, ich brauche zwei Seiten aus einem bestimmten Buch … ein Referat über Soziologie …",
           "context": "Channis Fleiß und Einsatz an der Uni – und wie selbstverständlich wir einander unterstützen.",
-          "audio_file": "00000513-AUDIO-2020-06-05-15-29-00.opus"
+          "audio_file": "00000513-AUDIO-2020-06-05-15-29-00.opus",
+          "speaker": "Channi"
         },
         {
           "date": "2021-10-06",
           "label": "Geburtstage als feste Anker",
           "sender": "Wir",
           "highlight_quote": "Alles Gute zum Geburtstag 🥳",
-          "context": "Egal wie viel Zeit vergeht: An Channis Ehrentag denken wir immer aneinander."
+          "context": "Egal wie viel Zeit vergeht: An Channis Ehrentag denken wir immer aneinander.",
+          "speaker": "Olli"
         }
       ],
       "featured_audio": {
@@ -1483,23 +1488,26 @@ const STORY_DATA = {
           "date": "2022-10-13",
           "label": "Channis berührende Worte über geschriebene Briefe",
           "sender": "Channi",
-          "highlight_quote": "Deine Worte geben mir auf jeden Fall richtig viel... Es ist ein schönes Antidepressivum auf Papier geschrieben! Danke dafür!",
+          "highlight_quote": "Deine Worte geben mir auf jeden Fall richtig viel. […] Danke dafür. Es ist ein schönes Antidepressivum auf Papier geschrieben, muss ich sagen.",
           "context": "Channi liest vor der Arbeit einen Brief durch und schickt eine dankbare Sprachnachricht.",
-          "audio_file": "00001243-AUDIO-2022-10-13-12-35-49.opus"
+          "audio_file": "00001243-AUDIO-2022-10-13-12-35-49.opus",
+          "speaker": "Channi"
         },
         {
-          "date": "2022-11-27",
+          "date": "2022-12-06",
           "label": "Unsere Philosophie über Freundschaft & Zeit",
           "sender": "Wir",
-          "highlight_quote": "Man legt viel zu viel Wert auf materielle Dinge, obwohl gerade gemeinsame Zeit das schönste Geschenk ist 😇",
-          "context": "Die gemeinsame Erkenntnis, was im Leben und in einer Freundschaft wirklich zählt."
+          "highlight_quote": "Und man legt viel zu viel Wert auf materielle Dinge, obwohl gerade Zeit das schönste Geschenk ist, was man jemandem machen kann 😇",
+          "context": "Die gemeinsame Erkenntnis, was im Leben und in einer Freundschaft wirklich zählt.",
+          "speaker": "Channi"
         },
         {
           "date": "2022-12-30",
           "label": "Unser Rekordtag (112 Nachrichten)",
           "sender": "Channi & Olli",
-          "highlight_quote": "Channi: 'Wollen wir vielleicht eine Playlist für Silvester erstellen? 😁'",
-          "context": "Gemeinsame Vorfreude auf Silvester, Lachen und 112 Nachrichten voller Energie."
+          "highlight_quote": "Wollen wir vielleicht eine Playlist für Silvester erstellen? 🤓",
+          "context": "Gemeinsame Vorfreude auf Silvester, Lachen und 112 Nachrichten voller Energie.",
+          "speaker": "Channi"
         }
       ],
       "featured_audio": {
@@ -1515,14 +1523,15 @@ const STORY_DATA = {
       "period": "2023 – 2024",
       "title": "Ein Fels in der Brandung: Channis Loyalität & ansteckende Lebensfreude",
       "core_theme": "Bedingungsloser Zusammenhalt, gemeinsame Abenteuer & Channis Begeisterung",
-      "description": "Channi beweist, was wahre Freundschaft ausmacht: Wenn es hart auf hart kommt, steht sie bedingungslos hinter ihren Freunden ('Ich stehe immer zu meinen wahren Freunden'). Zusammen packen wir bei handwerklichen Pflaster-Einsätzen im Garten an. Und Channi zeigt ihre wunderbare Gabe, sich wie ein Schneekönig über die kleinen Herzensdinge im Leben zu freuen – wie die gehäkelte Positive Potato.",
+      "description": "Channi beweist, was wahre Freundschaft ausmacht: Wenn es hart auf hart kommt, steht sie bedingungslos hinter ihren Freunden („Ich stehe immer zu meinen wahren Freunden“). Zusammen packen wir bei handwerklichen Pflaster-Einsätzen im Garten an. Und Channi zeigt ihre wunderbare Gabe, sich wie ein Schneekönig über die kleinen Herzensdinge im Leben zu freuen – wie die gehäkelte Positive Potato.",
       "pivotal_events": [
         {
           "date": "2023-07-06",
           "label": "Gemeinsam anpacken: Der Pflaster-Sommer",
           "sender": "Wir",
-          "highlight_quote": "Channi: 'Fürs Pflastern dürfte es ruhig etwas kälter sein 🥲' – Olli, ein halbes Jahr später: 'Würde sogar zum Pflastern vorbeikommen. 😄'",
-          "context": "Echte Freunde helfen sich gegenseitig – auch mit Steinen und Schaufeln."
+          "highlight_quote": "Jaaa aber fürs Pflastern dürfte es ruhig etwas kälter sein 🥲",
+          "context": "Echte Freunde helfen sich gegenseitig – auch mit Steinen und Schaufeln.",
+          "speaker": "Channi"
         },
         {
           "date": "2023-08-19",
@@ -1530,21 +1539,24 @@ const STORY_DATA = {
           "sender": "Channi",
           "highlight_quote": "Erstmal stehe ich natürlich immer zu dir, also ich stehe immer zu meinen wahren Freunden, von daher brauchst du dich dafür natürlich nicht bedanken.",
           "context": "Channis klares, loyales Bekenntnis – ein Moment von unschätzbarem Wert.",
-          "audio_file": "00003348-AUDIO-2023-08-19-02-53-45.opus"
+          "audio_file": "00003348-AUDIO-2023-08-19-02-53-45.opus",
+          "speaker": "Channi"
         },
         {
           "date": "2023-10-07",
           "label": "Gegenseitige Herzenswärme",
           "sender": "Channi & Olli",
-          "highlight_quote": "Channi: 'Wollte mich einmal ganz herzlich für euer Hammer Geschenk bedanken! 🫶🏽' | 'Hab dich verdammt lieb Channi 😊'",
-          "context": "Ehrliche, ungekünstelte Wertschätzung füreinander."
+          "highlight_quote": "Wollte mich einmal ganz herzlich für euer Hammer Geschenk bedanken! 🫶🏽",
+          "context": "Ehrliche, ungekünstelte Wertschätzung füreinander.",
+          "speaker": "Channi"
         },
         {
           "date": "2024-05-25",
           "label": "Channis ansteckende Freude: Die Positive Potato",
           "sender": "Channi",
-          "highlight_quote": "Ich habe meine Positive Potato bekommen… Zucker, Zucker, Zucker süß. Dankeschön!",
-          "context": "Channis herzliche Reaktion auf die kleine gehäkelte Mutmacher-Kartoffel (Positive Potato Pocket Hug)."
+          "highlight_quote": "Ich habe meine Positive Potato bekommen. […] Also Zucker, Zucker, Zucker süß. Dankeschön.",
+          "context": "Channis herzliche Reaktion auf die kleine gehäkelte Mutmacher-Kartoffel (Positive Potato Pocket Hug).",
+          "speaker": "Channi"
         },
         {
           "date": "2024-06-22",
@@ -1552,7 +1564,8 @@ const STORY_DATA = {
           "sender": "Wir",
           "highlight_quote": "Du bist eine echt coole Socke. Und ich bin froh, dass ich dich hab.",
           "context": "Auf den Punkt gebracht, was diese Freundschaft ausmacht.",
-          "audio_file": "00004324-AUDIO-2024-06-22-04-43-50.opus"
+          "audio_file": "00004324-AUDIO-2024-06-22-04-43-50.opus",
+          "speaker": "Olli"
         }
       ],
       "featured_audio": {
@@ -1568,29 +1581,32 @@ const STORY_DATA = {
       "period": "2025 – Oktober 2026",
       "title": "30 Jahre Channi: Sternchen, Fürsorge & unendliche Funkelmomente",
       "core_theme": "Channis Ehrentag, ihre Einzigartigkeit und der Blick in die Zukunft",
-      "description": "An Channis 30. Geburtstag steht sie im vollen Rampenlicht. Typisch Channi: Selbst an ihrem eigenen Ehrentag denkt sie zuerst an andere und organisiert extra vegane Burger, damit jeder Gast bestens versorgt ist ('Ist mir wichtig 😇🫶🏽'). Heute feiert sie 30 Jahre voller Herz, Lachen und Stärke – beschenkt mit dem Sternchen-Lebkuchenherz, süßem Nougat und dem Spielblock für unzählige kommende Spieleabende mit ihr.",
+      "description": "Channi wird 30 – und ist dabei ganz sie selbst: Für ihre eigene Party bestellt sie extra vegane Miniburger, damit Olli trotz Allergie richtig mitessen kann („Ist mir wichtig 😇🫶🏽“). Sie denkt einfach immer an alle. Zum Geburtstag gibt es ein Sternchen-Lebkuchenherz, süßen Nougat und einen Spieleblock für viele gemeinsame Spieleabende.",
       "pivotal_events": [
         {
           "date": "2026-09-27",
           "label": "Typisch Channi: Fürsorge für alle",
           "sender": "Channi",
-          "highlight_quote": "Ich habe für meinen Geburtstag jetzt auch vegane Miniburger bestellt, damit du auch eine Hauptspeise richtig essen kannst... ist mir wichtig 😇🫶🏽",
-          "context": "Channis feinfühlige Art: Sie vergisst niemanden und sorgt für alle mit Liebe."
+          "highlight_quote": "Ich habe für meinen Geburtstag jetzt auch vegane Miniburger bestellt, damit du auch eine „Hauptspeise“ richtig essen kannst … Ist mir wichtig 😇🫶🏽",
+          "context": "Channis feinfühlige Art: Sie vergisst niemanden und sorgt für alle mit Liebe.",
+          "speaker": "Channi"
         },
         {
           "date": "2026-09-30",
           "label": "Channis Wunsch nach Funkelmomenten",
           "sender": "Channi",
           "highlight_quote": "Alles Glück der Welt und viele wunderschöne Funkelmomente für dein Leben ✨",
-          "context": "Channis zauberhafter Wunsch – der jetzt zu ihrem eigenen Geburtstag an sie zurückgegeben wird."
+          "context": "Channis zauberhafter Wunsch – der jetzt zu ihrem eigenen Geburtstag an sie zurückgegeben wird.",
+          "speaker": "Channi"
         },
         {
           "date": "2026-10-06",
-          "label": "Channis 30. Geburtstag: Der Kreis schließt sich",
+          "label": "Channis 30. Geburtstag",
           "sender": "Wir",
-          "highlight_quote": "30 Jahre voller Leben, Lachen und Herz. Du hast einen wunderschönen Tag auf jeden Fall verdient!",
+          "highlight_quote": "Ich hoffe, du hattest heute einen wunderschönen Tag. Den hast du auf jeden Fall verdient.",
           "context": "Gemeinsame Vorfreude auf die große Party und 9,5 Jahre gefeierte Freundschaft.",
-          "audio_file": "00004767-AUDIO-2026-10-06-19-21-01.opus"
+          "audio_file": "00004767-AUDIO-2026-10-06-19-21-01.opus",
+          "speaker": "Olli"
         }
       ],
       "featured_audio": {
@@ -1612,27 +1628,27 @@ const AUDIO_MAPPING = {
   ],
   "chapter_3_unsere_seelenverwandtschaft": [
     {
-      "title": "Channi: 'Antidepressivum auf Papier'",
+      "title": "Channi: „Antidepressivum auf Papier“",
       "sub": "13.10.2022 • Über die Kraft geschriebener Worte",
       "src": "audio/channi_brief_antidepressivum.mp3"
     }
   ],
   "chapter_4_channis_loyalitaet_und_lebensfreude": [
     {
-      "title": "Channi: 'Ich stehe immer zu wahren Freunden'",
+      "title": "Channi: „Ich stehe immer zu meinen wahren Freunden“",
       "sub": "19.08.2023 • Echtes Loyalitätsbekenntnis",
       "src": "audio/channi_loyalitaet.mp3"
     },
     {
-      "title": "Olli: 'Du bist eine echt coole Socke'",
+      "title": "Olli: „Du bist eine echt coole Socke“",
       "sub": "22.06.2024 • Eine Hymne auf unsere Freundschaft",
       "src": "audio/olli_coole_socke.mp3"
     }
   ],
   "chapter_5_dreissig_jahre_channi": [
     {
-      "title": "Geburtstagsgruß zum 30. Ehrentag",
-      "sub": "06.10.2026 • Von Herzen alles Liebe",
+      "title": "Ollis Geburtstagsgruß",
+      "sub": "06.10.2026 • Olli, nach einem langen Tag",
       "src": "audio/olli_geburtstagsgruess.mp3"
     }
   ]
@@ -1852,7 +1868,7 @@ function renderTimeline() {
         bubble.innerHTML = `
           <span class="event-date">${formattedDate}</span>
           <strong>${ev.label}:</strong> 
-          <span class="event-quote">"${ev.highlight_quote}"</span>
+          <span class="event-quote">${ev.speaker ? `<span class="event-speaker">${ev.speaker}:</span> ` : ''}„${ev.highlight_quote}“</span>
         `;
         eventsContainer.appendChild(bubble);
       });
@@ -1917,80 +1933,34 @@ function renderChart() {
   const container = document.getElementById('chart-container');
   if (!container || !STORY_DATA.monthly_activity) return;
 
-  const data = STORY_DATA.monthly_activity;
-  const maxVal = Math.max(...data.map(d => d.total)); // 527 peak (Dez 2022)
+  // Nachrichten pro Jahr (2026 bis 06.10.)
+  const byYear = {};
+  STORY_DATA.monthly_activity.forEach(m => { byYear[m.year] = (byYear[m.year] || 0) + m.total; });
+  const years = Object.keys(byYear).map(Number).sort();
+  const data = years.map(y => ({ year: y, total: byYear[y] }));
+  const maxVal = Math.max(...data.map(d => d.total));
+  const peakYear = data.find(d => d.total === maxVal).year;
+  const labelled = new Set([years[0], peakYear, peakYear + 1, years[years.length - 1]]);
 
-  const svgWidth = 840;
-  const svgHeight = 220;
-  const paddingBottom = 30;
-  const paddingTop = 20;
-  const paddingLeft = 40;
-  const paddingRight = 20;
+  const W = 340, H = 230, padL = 6, padR = 6, padT = 34, padB = 26;
+  const chartW = W - padL - padR, chartH = H - padT - padB;
+  const slot = chartW / data.length, barW = slot - 6;
+  const fmt = n => n.toLocaleString('de-DE');
 
-  const chartW = svgWidth - paddingLeft - paddingRight;
-  const chartH = svgHeight - paddingTop - paddingBottom;
-  const barW = Math.max(4, chartW / data.length - 2.5);
-
-  let svgHtml = `
-    <svg viewBox="0 0 ${svgWidth} ${svgHeight}" class="chart-svg" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#C97268" />
-          <stop offset="100%" stop-color="#B8864C" />
-        </linearGradient>
-        <linearGradient id="peakGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#E07A5F" />
-          <stop offset="100%" stop-color="#B8864C" />
-        </linearGradient>
-      </defs>
-      
-      <!-- Baseline -->
-      <line x1="${paddingLeft}" y1="${svgHeight - paddingBottom}" x2="${svgWidth - paddingRight}" y2="${svgHeight - paddingBottom}" stroke="#EAE3D9" stroke-width="1.5" />
-      
-      <!-- Horizontal gridlines -->
-      <line x1="${paddingLeft}" y1="${svgHeight - paddingBottom - chartH * 0.5}" x2="${svgWidth - paddingRight}" y2="${svgHeight - paddingBottom - chartH * 0.5}" stroke="#F4EADB" stroke-dasharray="3,3" />
-      <text x="${paddingLeft - 8}" y="${svgHeight - paddingBottom - chartH * 0.5 + 4}" fill="#736E6A" font-size="10" text-anchor="end">${Math.round(maxVal / 2)}</text>
-      
-      <line x1="${paddingLeft}" y1="${paddingTop}" x2="${svgWidth - paddingRight}" y2="${paddingTop}" stroke="#F4EADB" stroke-dasharray="3,3" />
-      <text x="${paddingLeft - 8}" y="${paddingTop + 4}" fill="#736E6A" font-size="10" text-anchor="end">${maxVal}</text>
-  `;
-
-  // Bars and Year labels
-  let lastYear = null;
-
-  data.forEach((item, idx) => {
-    const x = paddingLeft + idx * (chartW / data.length);
-    const barHeight = item.total > 0 ? (item.total / maxVal) * chartH : 1;
-    const y = svgHeight - paddingBottom - barHeight;
-    const isPeak = item.total >= 500;
-
-    svgHtml += `
-      <rect x="${x}" y="${y}" width="${barW}" height="${barHeight}" 
-            fill="${isPeak ? 'url(#peakGrad)' : 'url(#barGrad)'}" rx="2" opacity="${item.total > 0 ? '0.9' : '0.2'}">
-        <title>${item.month}: ${item.total} Nachrichten</title>
-      </rect>
-    `;
-
-    // Year tick labels
-    const currentYear = item.year;
-    if (currentYear !== lastYear && (item.month.endsWith('-01') || idx === 0)) {
-      svgHtml += `
-        <text x="${x}" y="${svgHeight - paddingBottom + 16}" fill="#736E6A" font-size="10" font-weight="600" text-anchor="start">${currentYear}</text>
-      `;
-      lastYear = currentYear;
+  let svg = `<svg viewBox="0 0 ${W} ${H}" class="chart-svg" role="img" aria-label="Nachrichten pro Jahr, Höhepunkt ${peakYear} mit ${fmt(maxVal)} Nachrichten">`;
+  svg += `<line x1="${padL}" y1="${H - padB}" x2="${W - padR}" y2="${H - padB}" stroke="#EAE3D9" stroke-width="1"/>`;
+  data.forEach((d, i) => {
+    const h = Math.max(2, (d.total / maxVal) * chartH);
+    const x = padL + i * slot + 3, y = H - padB - h;
+    const peak = d.year === peakYear;
+    const r = Math.min(4, barW / 2, h);
+    // oben abgerundet, unten gerade auf der Grundlinie
+    svg += `<path d="M${x},${H - padB} V${y + r} Q${x},${y} ${x + r},${y} H${x + barW - r} Q${x + barW},${y} ${x + barW},${y + r} V${H - padB} Z" fill="${peak ? '#C97268' : '#D9B98E'}"><title>${d.year}: ${fmt(d.total)} Nachrichten${d.year === 2026 ? ' (bis 6. Oktober)' : ''}</title></path>`;
+    if (labelled.has(d.year)) {
+      svg += `<text x="${x + barW / 2}" y="${y - 6}" text-anchor="middle" font-size="11" font-weight="700" fill="${peak ? '#2C2A29' : '#736E6A'}">${fmt(d.total)}</text>`;
     }
+    svg += `<text x="${x + barW / 2}" y="${H - padB + 16}" text-anchor="middle" font-size="10" fill="#736E6A">${"'" + String(d.year).slice(2)}</text>`;
   });
-
-  // Callout for peak
-  const peakIdx = data.findIndex(d => d.total === maxVal);
-  if (peakIdx !== -1) {
-    const peakX = paddingLeft + peakIdx * (chartW / data.length);
-    svgHtml += `
-      <circle cx="${peakX + barW / 2}" cy="${paddingTop}" r="4" fill="#C97268" />
-      <text x="${peakX + barW / 2}" y="${paddingTop - 6}" fill="#C97268" font-size="10" font-weight="700" text-anchor="middle">Rekord: 527</text>
-    `;
-  }
-
-  svgHtml += `</svg>`;
-  container.innerHTML = svgHtml;
+  svg += `</svg>`;
+  container.innerHTML = svg + `<p class="chart-note">Nachrichten pro Jahr. Rekordmonat: Dezember 2022 mit 527 Nachrichten, Rekordtag: 30.12.2022 mit 112.</p>`;
 }
