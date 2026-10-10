@@ -657,3 +657,121 @@ body, .lock-title, .hero-title, .stat-number, .letter-body { font-variant-numeri
 .letter-closing { font-family: 'Playfair Display', Georgia, serif; font-size: 18px; }
 .event-speaker { font-style: normal; font-weight: 700; color: var(--text-main); }
 .event-quote { display: block; margin-top: 6px; }
+
+/* =====================================================================
+   Design-Abgleich mit dem Video (Farben, Schriften, Sterne, Polaroids)
+   ===================================================================== */
+:root {
+  --bg-color: #FBF5EC;
+  --bg-card: #FFFDF9;
+  --text-main: #2A2220;
+  --text-muted: #6F625B;
+  --accent-gold: #9A6B33;        /* Gold fuer kleine Schrift (lesbar) */
+  --gold: #E2AE62;               /* Video-Gold fuer Flaechen/Sterne */
+  --gold-deep: #B8864C;
+  --accent-gold-light: rgba(226, 174, 98, 0.18);
+  --accent-rose: #B4463F;        /* Rose fuer Text */
+  --rose: #E06A5F;               /* Video-Rose fuer Flaechen */
+  --plum: #2A1730;
+  --plum-2: #3D2245;
+  --border-color: #EFE4D4;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-hand: 'Caveat', cursive;
+}
+body { font-family: var(--font-sans); background-color: var(--bg-color);
+  background-image: radial-gradient(circle at 15% 10%, rgba(226,174,98,.16) 0, transparent 40%), radial-gradient(circle at 85% 60%, rgba(224,106,95,.10) 0, transparent 45%);
+  background-attachment: fixed; }
+
+/* Sterne statt Kreise */
+.particle { background: none; border-radius: 0; opacity: .55; animation-name: floatStar; }
+.particle svg { width: 100%; height: 100%; display: block; fill: var(--gold); }
+@keyframes floatStar {
+  0% { transform: translateY(105vh) rotate(0deg) scale(.6); opacity: 0; }
+  15% { opacity: .7; } 85% { opacity: .7; }
+  100% { transform: translateY(-10vh) rotate(180deg) scale(1); opacity: 0; }
+}
+.star-ico { width: 1em; height: 1em; fill: var(--gold); display: inline-block; vertical-align: -0.1em; }
+
+/* Sperrbildschirm im Look des Video-Intros */
+#lock-screen { background: var(--plum);
+  background-image: radial-gradient(circle at 30% 20%, rgba(226,174,98,.32) 0, transparent 45%), radial-gradient(circle at 75% 80%, rgba(224,106,95,.30) 0, transparent 45%); }
+#lock-screen ~ #particles-container, body:has(#lock-screen.view-active) #particles-container { z-index: 101; }
+.lock-card { background: var(--bg-card); border: none; box-shadow: 0 30px 70px rgba(10, 2, 12, .45); }
+.badge-icon { font-size: 44px; margin-bottom: 8px; }
+.lock-title { font-family: var(--font-serif); font-weight: 900; font-size: 46px; letter-spacing: -0.5px; }
+.lock-subtitle { font-family: var(--font-hand); font-size: 26px; color: var(--accent-rose); margin-bottom: 28px; }
+.pin-prompt { font-weight: 800; letter-spacing: 2px; font-size: 13px; }
+.pin-digit { font-family: var(--font-serif); font-weight: 900; border-radius: 14px; background: #FFF; }
+.pin-digit:focus { border-color: var(--gold-deep); box-shadow: 0 0 0 4px rgba(226,174,98,.25); }
+.hint-text { background: var(--accent-gold-light); color: var(--accent-gold); }
+
+/* Kopfbereich wie Karte & Video-Finale */
+.hero-header { padding-top: 64px; }
+.hero-badge { font-family: var(--font-sans); font-weight: 800; letter-spacing: 3px; text-transform: uppercase;
+  background: var(--accent-gold-light); color: var(--accent-gold); font-size: 12px; }
+.hero-title { font-family: var(--font-serif); font-weight: 900; font-size: clamp(36px, 10vw, 60px); line-height: 1.05; letter-spacing: -0.5px; }
+.hero-title .accent { color: var(--rose); font-size: 1.3em; }
+.hero-desc { margin-top: 18px; }
+
+/* Polaroids */
+.polaroid { background: #fff; padding: 10px 10px 0; box-shadow: 0 18px 40px rgba(40, 20, 10, .18); margin: 0; }
+.polaroid img { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 35%; }
+.polaroid figcaption { font-family: var(--font-hand); font-size: 22px; text-align: center; color: var(--text-main); padding: 8px 4px 10px; line-height: 1.1; }
+.hero-polaroid { width: min(78%, 320px); margin: 30px auto 6px; transform: rotate(-3deg); }
+.hero-polaroid img { aspect-ratio: 4 / 4.2; object-position: center 25%; }
+.hero-polaroid figcaption { font-size: 26px; }
+.polaroid-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px 16px; padding: 8px 4px 4px; }
+@media (min-width: 700px) { .polaroid-grid { grid-template-columns: repeat(3, 1fr); } }
+.polaroid-grid .polaroid:nth-child(odd) { transform: rotate(-2.5deg); }
+.polaroid-grid .polaroid:nth-child(even) { transform: rotate(2deg); }
+.polaroid-grid .polaroid figcaption { font-size: 19px; }
+
+/* Karten & Ueberschriften */
+.card { background: var(--bg-card); border-color: var(--border-color); }
+.card-header h2 { font-family: var(--font-serif); font-weight: 900; letter-spacing: -0.3px; }
+.card-tag { font-family: var(--font-sans); font-weight: 800; letter-spacing: 2px; background: var(--accent-gold-light); color: var(--accent-gold); }
+.stat-number { font-family: var(--font-serif); font-weight: 900; color: var(--gold-deep); }
+.btn-secondary { font-family: var(--font-sans); font-weight: 700; background: var(--plum); color: #fff; border-color: var(--plum); }
+.btn-secondary:hover { background: var(--plum-2); color: #fff; }
+.video-wrapper { border-color: #fff; }
+
+/* Timeline */
+.timeline-period { font-weight: 800; letter-spacing: 2px; color: var(--accent-gold); }
+.timeline-title { font-family: var(--font-serif); font-weight: 900; letter-spacing: -0.2px; }
+.timeline-dot { border-color: var(--gold); background: var(--rose); }
+.event-bubble { border-left-color: var(--gold); background: #FFF8EE; }
+.event-quote { font-family: var(--font-serif); font-style: italic; color: var(--accent-rose); font-size: 1.05em; }
+.event-speaker { font-family: var(--font-sans); }
+
+/* Sprachnachrichten wie die Voice-Szenen im Video (dunkel, Gold) */
+.audio-widget { background: var(--plum); border: none; color: #fff; }
+.audio-title { color: #fff; }
+.audio-sub { color: rgba(255,255,255,.7); }
+.audio-btn { background: var(--gold); color: var(--plum); display: inline-flex; align-items: center; justify-content: center; }
+.audio-btn:hover { background: #EDC17F; }
+
+/* Brief */
+.letter-body { font-family: var(--font-sans); }
+.letter-greeting { font-family: var(--font-serif); font-weight: 900; font-size: 28px; }
+.letter-closing { font-family: var(--font-serif); }
+.signature { display: block; font-family: var(--font-hand); font-size: 32px; color: var(--gold-deep); margin-top: 6px; line-height: 1.1; }
+
+/* Geschenke */
+.gift-icon { font-size: 22px; line-height: 1; padding-top: 3px; }
+.gift-item strong { font-family: var(--font-serif); font-weight: 900; }
+
+/* Footer & Schloss */
+.footer-hand { font-family: var(--font-hand); font-size: 30px; color: var(--accent-rose); margin-bottom: 4px; }
+.relock-btn { font-family: var(--font-sans); font-weight: 700; color: var(--plum); border-color: rgba(42,23,48,.18); }
+/* Feinschliff Design-Abgleich */
+.letter-gift-list, .letter-gift-list li, .audio-title, .audio-sub, .btn-hint, .gift-item p { font-family: var(--font-sans); }
+.letter-gift-list { font-size: 15px; }
+.hero-title { font-size: clamp(30px, 8.4vw, 56px); }
+.hero-title .line1 { white-space: nowrap; }
+/* Sterne hinter der Sperr-Karte statt darueber */
+body:has(#lock-screen.view-active) { background: var(--plum); }
+#lock-screen { background-color: transparent; }
+body:has(#lock-screen.view-active) #particles-container { z-index: 1;
+  background: var(--plum); background-image: radial-gradient(circle at 30% 20%, rgba(226,174,98,.32) 0, transparent 45%), radial-gradient(circle at 75% 80%, rgba(224,106,95,.30) 0, transparent 45%); }
+#lock-screen { background-image: none; }

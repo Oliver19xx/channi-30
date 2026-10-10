@@ -1665,17 +1665,17 @@ document.addEventListener('DOMContentLoaded', () => {
 function initParticles() {
   const container = document.getElementById('particles-container');
   if (!container) return;
-  const count = 28;
-  for (let i = 0; i < count; i++) {
+  const path = 'M0,-50 C6,-6 6,-6 50,0 C6,6 6,6 0,50 C-6,6 -6,6 -50,0 C-6,-6 -6,-6 0,-50Z';
+  for (let i = 0; i < 18; i++) {
     const p = document.createElement('div');
     p.className = 'particle';
-    const size = Math.random() * 8 + 4;
+    const size = Math.random() * 14 + 8;
     p.style.width = size + 'px';
     p.style.height = size + 'px';
     p.style.left = Math.random() * 100 + '%';
-    p.style.animationDuration = (Math.random() * 12 + 10) + 's';
-    p.style.animationDelay = (Math.random() * 8) + 's';
-    p.style.opacity = (Math.random() * 0.5 + 0.2).toString();
+    p.style.animationDuration = (Math.random() * 14 + 14) + 's';
+    p.style.animationDelay = (-Math.random() * 20) + 's';
+    p.innerHTML = `<svg viewBox="-50 -50 100 100"><path d="${path}"/></svg>`;
     container.appendChild(p);
   }
 }
@@ -1790,7 +1790,7 @@ function initPinLock() {
 
 // 3. CONFETTI CELEBRATION EFFECT
 function triggerConfetti() {
-  const colors = ['#B8864C', '#C97268', '#E6C594', '#6B9080', '#E07A5F', '#DDA15E'];
+  const colors = ['#E06A5F', '#E2AE62', '#F4C9C1', '#8FB8A8', '#3D2245', '#FFFFFF'];
   const confettiCount = 50;
   for (let i = 0; i < confettiCount; i++) {
     const c = document.createElement('div');
@@ -1820,6 +1820,9 @@ function triggerConfetti() {
 
 // 4. TIMELINE RENDERING
 let currentPlayingAudio = null;
+
+const PLAY_ICON = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>';
+const PAUSE_ICON = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg>';
 
 function renderTimeline() {
   const container = document.getElementById('timeline-container');
@@ -1886,7 +1889,7 @@ function renderTimeline() {
 
       const playBtn = document.createElement('button');
       playBtn.className = 'audio-btn';
-      playBtn.innerHTML = '▶';
+      playBtn.innerHTML = PLAY_ICON;
       playBtn.title = 'Abspielen';
 
       const infoDiv = document.createElement('div');
@@ -1900,22 +1903,22 @@ function renderTimeline() {
         if (currentPlayingAudio && currentPlayingAudio !== audioObj) {
           currentPlayingAudio.pause();
           currentPlayingAudio.currentTime = 0;
-          document.querySelectorAll('.audio-btn').forEach(btn => btn.innerHTML = '▶');
+          document.querySelectorAll('.audio-btn').forEach(btn => btn.innerHTML = PLAY_ICON);
         }
 
         if (audioObj.paused) {
           audioObj.play();
-          playBtn.innerHTML = '⏸';
+          playBtn.innerHTML = PAUSE_ICON;
           currentPlayingAudio = audioObj;
         } else {
           audioObj.pause();
-          playBtn.innerHTML = '▶';
+          playBtn.innerHTML = PLAY_ICON;
           currentPlayingAudio = null;
         }
       });
 
       audioObj.addEventListener('ended', () => {
-        playBtn.innerHTML = '▶';
+        playBtn.innerHTML = PLAY_ICON;
         currentPlayingAudio = null;
       });
 
@@ -1955,7 +1958,7 @@ function renderChart() {
     const peak = d.year === peakYear;
     const r = Math.min(4, barW / 2, h);
     // oben abgerundet, unten gerade auf der Grundlinie
-    svg += `<path d="M${x},${H - padB} V${y + r} Q${x},${y} ${x + r},${y} H${x + barW - r} Q${x + barW},${y} ${x + barW},${y + r} V${H - padB} Z" fill="${peak ? '#C97268' : '#D9B98E'}"><title>${d.year}: ${fmt(d.total)} Nachrichten${d.year === 2026 ? ' (bis 6. Oktober)' : ''}</title></path>`;
+    svg += `<path d="M${x},${H - padB} V${y + r} Q${x},${y} ${x + r},${y} H${x + barW - r} Q${x + barW},${y} ${x + barW},${y + r} V${H - padB} Z" fill="${peak ? '#E06A5F' : '#E2AE62'}"><title>${d.year}: ${fmt(d.total)} Nachrichten${d.year === 2026 ? ' (bis 6. Oktober)' : ''}</title></path>`;
     if (labelled.has(d.year)) {
       svg += `<text x="${x + barW / 2}" y="${y - 6}" text-anchor="middle" font-size="11" font-weight="700" fill="${peak ? '#2C2A29' : '#736E6A'}">${fmt(d.total)}</text>`;
     }

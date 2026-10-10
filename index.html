@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Für Channi ❤️ – 30 Jahre Funkelmomente</title>
-  <meta name="theme-color" content="#FAF7F2">
+  <meta name="theme-color" content="#2A1730">
   <meta name="description" content="Eine kleine Zeitreise zu Channis 30. Geburtstag.">
   <meta property="og:title" content="Für Channi ✨">
   <meta property="og:description" content="Eine kleine Zeitreise zu deinem 30. Geburtstag.">
@@ -13,7 +13,7 @@
   <meta name="robots" content="noindex, nofollow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=DM+Sans:wght@400;500;700;800&family=Caveat:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,9 +22,9 @@
   <!-- 1. LOCK SCREEN -->
   <main id="lock-screen" class="view-active">
     <div class="lock-card">
-      <div class="badge-icon">✨</div>
+      <div class="badge-icon"><svg class="star-ico" viewBox="-50 -50 100 100" aria-hidden="true"><path d="M0,-50 C6,-6 6,-6 50,0 C6,6 6,6 0,50 C-6,6 -6,6 -50,0 C-6,-6 -6,-6 0,-50Z"/></svg></div>
       <h1 class="lock-title">Für Channi</h1>
-      <p class="lock-subtitle">9,5 Jahre voller Lachen, Leben & echter Freundschaft</p>
+      <p class="lock-subtitle">eine kleine Zeitreise von Olli</p>
       
       <div class="pin-prompt">
         <span>Gib deinen 6-stelligen Geheimcode ein:</span>
@@ -42,8 +42,8 @@
       <p id="error-msg" class="error-msg"></p>
 
       <div class="hint-section">
-        <button type="button" id="hint-toggle" class="btn-hint">💡 Tipp anzeigen</button>
-        <p id="hint-text" class="hint-text hidden">Der Tag, an dem unsere Geschichte begann: <strong>30.04.17</strong></p>
+        <button type="button" id="hint-toggle" class="btn-hint">Tipp anzeigen</button>
+        <p id="hint-text" class="hint-text hidden">Unsere allererste Nachricht: <strong>30.04.17</strong></p>
       </div>
     </div>
   </main>
@@ -54,8 +54,9 @@
   <div id="unlocked-content" class="view-hidden">
     <!-- Hero Header -->
     <header class="hero-header">
-      <div class="hero-badge">30 JAHRE CHANNI ✨</div>
-      <h1 class="hero-title">Alles Liebe zum Geburtstag!</h1>
+      <div class="hero-badge">6. Oktober 2026</div>
+      <h1 class="hero-title"><span class="line1">Alles Liebe zum 30.,</span><br><span class="accent">Channi!</span></h1>
+      <figure class="polaroid hero-polaroid"><img src="assets/photos/p2026.jpg" alt="Channi und Olli, September 2026" loading="eager"><figcaption>seit dem 30.04.2017</figcaption></figure>
       <p class="hero-desc">Eine kleine Zeitreise durch 9,5 Jahre, 4.764 Nachrichten, 311 Sprachnachrichten und unzählige unbezahlbare Momente.</p>
     </header>
 
@@ -64,7 +65,7 @@
       <!-- Video Section -->
       <section class="card video-card">
         <div class="card-header">
-          <h2>🎬 Dein persönlicher Geburtstagsfilm</h2>
+          <h2>Dein Geburtstagsfilm</h2>
           <span class="card-tag">Exklusiv für dich</span>
         </div>
         <p class="section-intro">Lehn dich zurück, dreh den Ton auf und genieß eure gemeinsame Geschichte:</p>
@@ -77,7 +78,23 @@
         </div>
 
         <div class="video-actions">
-          <a href="channi_story_30.mp4" download class="btn-secondary" id="download-btn">⬇️ Video herunterladen</a>
+          <a href="channi_story_30.mp4" download class="btn-secondary" id="download-btn">Video herunterladen</a>
+        </div>
+      </section>
+
+      <!-- Funkelmomente -->
+      <section class="card gallery-card">
+        <div class="card-header">
+          <h2>Unsere Funkelmomente</h2>
+          <span class="card-tag">Fotos</span>
+        </div>
+        <div class="polaroid-grid">
+          <figure class="polaroid"><img src="assets/photos/sparkle3.jpg" alt="Wunderkerze an Silvester" loading="lazy"><figcaption>Silvester 2019/20</figcaption></figure>
+          <figure class="polaroid"><img src="assets/photos/p2021.jpg" alt="Channi und Olli im Oktober 2021" loading="lazy"><figcaption>30.10.2021</figcaption></figure>
+          <figure class="polaroid"><img src="assets/photos/p2023a.jpg" alt="Sommer 2023" loading="lazy"><figcaption>08.07.2023</figcaption></figure>
+          <figure class="polaroid"><img src="assets/photos/p2023c.jpg" alt="August 2023" loading="lazy"><figcaption>19.08.2023</figcaption></figure>
+          <figure class="polaroid"><img src="assets/photos/p2024a.jpg" alt="Maiwoche 2024" loading="lazy"><figcaption>Maiwoche 2024</figcaption></figure>
+          <figure class="polaroid"><img src="assets/photos/p2024c.jpg" alt="Oktober 2024" loading="lazy"><figcaption>13.10.2024</figcaption></figure>
         </div>
       </section>
 
@@ -104,7 +121,7 @@
       <!-- Interactive Timeline -->
       <section class="card timeline-card">
         <div class="card-header">
-          <h2>📖 Die 5 Kapitel unserer Freundschaft</h2>
+          <h2>Die 5 Kapitel unserer Freundschaft</h2>
           <span class="card-tag">Chronik</span>
         </div>
         <div id="timeline-container" class="timeline-list">
@@ -115,7 +132,7 @@
       <!-- Activity Graph Section -->
       <section class="card chart-card">
         <div class="card-header">
-          <h2>📈 Unser Chat-Verlauf über die Jahre</h2>
+          <h2>Unser Chat-Verlauf über die Jahre</h2>
           <span class="card-tag">Aktivität</span>
         </div>
         <p class="chart-desc">Unsere Jahre auf einen Blick – inklusive des legendären Rekord-Winters 2022.</p>
@@ -127,7 +144,7 @@
       <!-- Personal Letter -->
       <section class="card letter-card">
         <div class="card-header">
-          <h2>💌 Ein persönlicher Brief an dich</h2>
+          <h2>Ein Brief an dich</h2>
           <span class="card-tag">Von Olli</span>
         </div>
         <div class="letter-body">
@@ -138,14 +155,14 @@
           <p>Menschen wie dich gibt es nicht oft auf dieser Welt, und ich bin unendlich dankbar, dich als feste Konstante und treue Freundin in meinem Leben zu haben.</p>
           <p>Zu deinem runden Geburtstag schenke ich dir drei Dinge:</p>
           <ul class="letter-gift-list">
-            <li><strong>🌟 Ein Lebkuchenherz für mein Lieblings-„Sternchen“:</strong> Weil du für mich genau das bist – und damit dir im neuen Lebensjahr niemals die ganz besonderen Funkelmomente ausgehen.</li>
-            <li><strong>🍬 Den besten Soft Nougat:</strong> Als süße Nervennahrung für alle Herausforderungen der „30er“ (und weil Genuss einfach dazugehört).</li>
-            <li><strong>🎲 „Stadt Land Vollpfosten – Do It Yourself“:</strong> Weil die schönsten Geschenke immer noch die gemeinsame Zeit und unvergessliche Lachkrämpfe sind. Die ersten Kategorien habe ich dir im Kopf schon vorbereitet!</li>
+            <li><strong>Ein Lebkuchenherz für mein Lieblings-„Sternchen“:</strong> Weil du für mich genau das bist – und damit dir im neuen Lebensjahr niemals die ganz besonderen Funkelmomente ausgehen.</li>
+            <li><strong>Den besten Soft Nougat:</strong> Als süße Nervennahrung für alle Herausforderungen der „30er“ (und weil Genuss einfach dazugehört).</li>
+            <li><strong>„Stadt Land Vollpfosten – Do It Yourself“:</strong> Weil die schönsten Geschenke immer noch die gemeinsame Zeit und unvergessliche Lachkrämpfe sind. Die ersten Kategorien habe ich dir im Kopf schon vorbereitet!</li>
           </ul>
           <p>Ich wünsche dir für dein neues Jahrzehnt von ganzem Herzen Gesundheit, Leichtigkeit, jede Menge Abenteuer und Menschen an deiner Seite, die dich genau so schätzen und lieben, wie du bist.</p>
           <p class="letter-closing">
             Schön, dass es dich gibt!<br>
-            <strong>Von Herzen alles Liebe, dein Olli 🥰🫶</strong>
+            <span class="signature">Von Herzen alles Liebe, dein Olli</span>
           </p>
         </div>
       </section>
@@ -153,7 +170,7 @@
       <!-- Physical Gift Bundle Section -->
       <section class="card gifts-card">
         <div class="card-header">
-          <h2>🎁 Dein Geburtstags-Bundle</h2>
+          <h2>Dein Geburtstags-Bundle</h2>
           <span class="card-tag">Für dich</span>
         </div>
         <div class="gifts-grid">
@@ -162,21 +179,21 @@
           </div>
           <div class="gift-descriptions">
             <div class="gift-item">
-              <span class="gift-icon">💚</span>
+              <span class="gift-icon"><svg class="star-ico" viewBox="-50 -50 100 100" aria-hidden="true"><path d="M0,-50 C6,-6 6,-6 50,0 C6,6 6,6 0,50 C-6,6 -6,6 -50,0 C-6,-6 -6,-6 0,-50Z"/></svg></span>
               <div>
                 <strong>Das Lebkuchenherz „Sternchen“</strong>
                 <p>Echte Jahrmarkt-Nostalgie für den Menschen, der immer für Glanz und Funkelmomente sorgt.</p>
               </div>
             </div>
             <div class="gift-item">
-              <span class="gift-icon">🍫</span>
+              <span class="gift-icon"><svg class="star-ico" viewBox="-50 -50 100 100" aria-hidden="true"><path d="M0,-50 C6,-6 6,-6 50,0 C6,6 6,6 0,50 C-6,6 -6,6 -50,0 C-6,-6 -6,-6 0,-50Z"/></svg></span>
               <div>
                 <strong>Sir Charles Soft Nougat</strong>
                 <p>Früchte & Erdnuss + Schokolade & Erdnuss. Süße Nervennahrung für das neue Lebensjahrzehnt.</p>
               </div>
             </div>
             <div class="gift-item">
-              <span class="gift-icon">🎲</span>
+              <span class="gift-icon"><svg class="star-ico" viewBox="-50 -50 100 100" aria-hidden="true"><path d="M0,-50 C6,-6 6,-6 50,0 C6,6 6,6 0,50 C-6,6 -6,6 -50,0 C-6,-6 -6,-6 0,-50Z"/></svg></span>
               <div>
                 <strong>Stadt Land Vollpfosten (Do It Yourself)</strong>
                 <p>Für unzählige kommende Spieleabende mit Drinks und neuen Geschichten.</p>
@@ -188,7 +205,8 @@
 
       <!-- Footer -->
       <footer class="footer">
-        <p>Mit ganz viel Liebe für Channi zum 30. Geburtstag · von Olli</p>
+        <p class="footer-hand">Auf viele weitere Funkelmomente.</p>
+        <p>Für Channi zum 30. Geburtstag · von Olli</p>
       </footer>
 
     </div>
