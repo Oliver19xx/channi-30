@@ -11,8 +11,8 @@ const STORY_DATA = {
     "total_days": 3446,
     "total_months": 115,
     "active_months": 75,
-    "total_messages": 4766,
-    "total_voice_notes": 308,
+    "total_messages": 4764,
+    "total_voice_notes": 311,
     "total_words": 62098,
     "words_by_sender": {
       "olli": 33185,
@@ -1434,7 +1434,7 @@ const STORY_DATA = {
           "date": "2017-08-31",
           "label": "Gemeinsame Feiernächte & Vertrautheit",
           "sender": "Wir",
-          "highlight_quote": "Ausgelassene Nächte, ehrliche Gespräche und das Wissen: Mit Channi kann man einfach man selbst sein.",
+          "highlight_quote": "Olli: 'Ich möchte mit dir mal in entspannter Umgebung feiern gehen.'",
           "context": "Der August 2017 ist mit 142 Nachrichten unser erster großer gemeinsamer Sommermonat."
         }
       ],
@@ -1521,7 +1521,7 @@ const STORY_DATA = {
           "date": "2023-07-06",
           "label": "Gemeinsam anpacken: Der Pflaster-Sommer",
           "sender": "Wir",
-          "highlight_quote": "Muskelkater ohne Ende, aber zusammen durchgezogen! 'Würde sogar zum Pflastern wieder vorbeikommen!'",
+          "highlight_quote": "Channi: 'Fürs Pflastern dürfte es ruhig etwas kälter sein 🥲' – Olli, ein halbes Jahr später: 'Würde sogar zum Pflastern vorbeikommen. 😄'",
           "context": "Echte Freunde helfen sich gegenseitig – auch mit Steinen und Schaufeln."
         },
         {
@@ -1550,7 +1550,7 @@ const STORY_DATA = {
           "date": "2024-06-22",
           "label": "Eine Hymne an unsere Freundschaft (Audio)",
           "sender": "Wir",
-          "highlight_quote": "Du bist eine echt coole Socke, Channi. Und ich bin unendlich froh, dass ich dich hab.",
+          "highlight_quote": "Du bist eine echt coole Socke. Und ich bin froh, dass ich dich hab.",
           "context": "Auf den Punkt gebracht, was diese Freundschaft ausmacht.",
           "audio_file": "00004324-AUDIO-2024-06-22-04-43-50.opus"
         }
@@ -1681,8 +1681,19 @@ function initPinLock() {
     });
   }
 
+  const lockBtn = document.getElementById('relock-btn');
+  if (lockBtn) {
+    lockBtn.addEventListener('click', () => {
+      try { localStorage.removeItem('channi_30_unlocked'); } catch (e) {}
+      document.querySelectorAll('video, audio').forEach(m => { try { m.pause(); } catch (e) {} });
+      // URL ohne ?code= neu laden, damit wirklich wieder gesperrt ist
+      window.location.replace(window.location.pathname);
+    });
+  }
+
   function unlock() {
-    localStorage.setItem('channi_30_unlocked', 'true');
+    try { localStorage.setItem('channi_30_unlocked', 'true'); } catch (e) {}
+    if (lockBtn) lockBtn.classList.add('visible');
     lockScreen.style.opacity = '0';
     lockScreen.style.transform = 'scale(0.96)';
     setTimeout(() => {
@@ -1697,7 +1708,7 @@ function initPinLock() {
   // Check URL parameters for direct unlock
   const urlParams = new URLSearchParams(window.location.search);
   const codeParam = urlParams.get('code') || urlParams.get('pin');
-  if (codeParam === correctPin || localStorage.getItem('channi_30_unlocked') === 'true') {
+  if (codeParam === correctPin || (function(){ try { return localStorage.getItem('channi_30_unlocked') === 'true'; } catch (e) { return false; } })()) {
     unlock();
     return;
   }
@@ -1907,7 +1918,7 @@ function renderChart() {
   if (!container || !STORY_DATA.monthly_activity) return;
 
   const data = STORY_DATA.monthly_activity;
-  const maxVal = Math.max(...data.map(d => d.total)); // 560 peak
+  const maxVal = Math.max(...data.map(d => d.total)); // 527 peak (Dez 2022)
 
   const svgWidth = 840;
   const svgHeight = 220;
@@ -1976,7 +1987,7 @@ function renderChart() {
     const peakX = paddingLeft + peakIdx * (chartW / data.length);
     svgHtml += `
       <circle cx="${peakX + barW / 2}" cy="${paddingTop}" r="4" fill="#C97268" />
-      <text x="${peakX + barW / 2}" y="${paddingTop - 6}" fill="#C97268" font-size="10" font-weight="700" text-anchor="middle">Rekord: 560</text>
+      <text x="${peakX + barW / 2}" y="${paddingTop - 6}" fill="#C97268" font-size="10" font-weight="700" text-anchor="middle">Rekord: 527</text>
     `;
   }
 

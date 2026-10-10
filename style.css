@@ -633,3 +633,11 @@ body {
   color: var(--text-muted);
   padding: 40px 20px 20px;
 }
+
+/* Wieder-sperren-Schloss */
+.relock-btn{position:fixed;top:14px;right:14px;z-index:1000;display:none;align-items:center;gap:6px;
+  padding:10px 14px;border:1px solid rgba(184,134,76,.45);border-radius:999px;background:rgba(255,253,249,.92);
+  color:#8a6235;font:600 14px 'Plus Jakarta Sans',system-ui,sans-serif;box-shadow:0 6px 18px rgba(60,40,20,.12);
+  backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);cursor:pointer}
+.relock-btn.visible{display:inline-flex}
+.relock-btn:active{transform:scale(.96)}
