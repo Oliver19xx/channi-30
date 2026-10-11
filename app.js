@@ -1414,7 +1414,7 @@ const STORY_DATA = {
       "period": "April 2017 – Ende 2018",
       "title": "Der Funke von Tag 1: Unser Humor & die Maiwoche",
       "core_theme": "Die Geburt unserer Freundschaft auf derselben Wellenlänge",
-      "description": "Schon in den ersten Nachrichten zeigt sich dein herrlich trockener Humor („Das ist nicht das Lied ?:D“). Nur zehn Tage später fragst du mich nach der Osnabrücker Maiwoche – der Grundstein für gemeinsame Feiernächte, legendäre Quatsch-Aktionen und eine Vertrautheit, die von Tag 1 an einfach da war.",
+      "description": "Schon in den ersten Nachrichten zeigt sich dein herrlich trockener Humor. Nur zehn Tage später fragst du mich nach der Osnabrücker Maiwoche – der Grundstein für gemeinsame Feiernächte, legendäre Quatsch-Aktionen und eine Vertrautheit, die von Tag 1 an einfach da war.",
       "pivotal_events": [
         {
           "date": "2017-04-30",
@@ -1503,7 +1503,7 @@ const STORY_DATA = {
         },
         {
           "date": "2022-12-30",
-          "label": "Unser Rekordtag (112 Nachrichten)",
+          "label": "Unser Rekordtag",
           "sender": "Channi & Olli",
           "highlight_quote": "Wollen wir vielleicht eine Playlist für Silvester erstellen? 🤓",
           "context": "Gemeinsame Vorfreude auf Silvester, Lachen und 112 Nachrichten voller Energie.",
@@ -1523,7 +1523,7 @@ const STORY_DATA = {
       "period": "2023 – 2024",
       "title": "Ein Fels in der Brandung: Deine Loyalität & ansteckende Lebensfreude",
       "core_theme": "Bedingungsloser Zusammenhalt, gemeinsame Abenteuer & Channis Begeisterung",
-      "description": "Du zeigst, was wahre Freundschaft ausmacht: Wenn es hart auf hart kommt, stehst du bedingungslos hinter deinen Freunden („Ich stehe immer zu meinen wahren Freunden“). Beim Pflastern im Garten packen wir zusammen an. Und du hast diese wunderbare Gabe, dich wie ein Schneekönig über die kleinen Herzensdinge im Leben zu freuen – wie über die gehäkelte Positive Potato.",
+      "description": "Du zeigst, was wahre Freundschaft ausmacht: Wenn es hart auf hart kommt, stehst du bedingungslos hinter deinen Freunden. Beim Pflastern im Garten packen wir zusammen an. Und du hast diese wunderbare Gabe, dich wie ein Schneekönig über die kleinen Herzensdinge im Leben zu freuen – wie über die gehäkelte Positive Potato.",
       "pivotal_events": [
         {
           "date": "2023-07-06",
@@ -1581,7 +1581,7 @@ const STORY_DATA = {
       "period": "2025 – Oktober 2026",
       "title": "Du wirst 30: Sternchen, Fürsorge & unendliche Funkelmomente",
       "core_theme": "Channis Ehrentag, ihre Einzigartigkeit und der Blick in die Zukunft",
-      "description": "Du wirst 30 – und bleibst dabei ganz du selbst: Für deine eigene Party bestellst du extra vegane Miniburger, damit ich trotz Allergie richtig mitessen kann („Ist mir wichtig 😇🫶🏽“). Du denkst einfach immer an alle. Zum Geburtstag gibt es von mir ein Sternchen-Lebkuchenherz, süßen Nougat und einen Spieleblock für viele gemeinsame Spieleabende.",
+      "description": "Du wirst 30 – und bleibst dabei ganz du selbst: Für deine eigene Party bestellst du extra vegane Miniburger, damit ich trotz Allergie richtig mitessen kann. Du denkst einfach immer an alle.",
       "pivotal_events": [
         {
           "date": "2026-09-27",
@@ -1622,33 +1622,33 @@ const AUDIO_MAPPING = {
   "chapter_2_channis_herzblut_und_rueckhalt": [
     {
       "title": "Deine Sprachnachricht zum Uni-Referat",
-      "sub": "05.06.2020 • Soziologie & gegenseitige Unterstützung",
+      "sub": "05.06.2020",
       "src": "audio/channi_uni_memo.mp3"
     }
   ],
   "chapter_3_unsere_seelenverwandtschaft": [
     {
-      "title": "Du: „Antidepressivum auf Papier“",
-      "sub": "13.10.2022 • Über die Kraft geschriebener Worte",
+      "title": "Deine Sprachnachricht zu meinem Brief",
+      "sub": "13.10.2022",
       "src": "audio/channi_brief_antidepressivum.mp3"
     }
   ],
   "chapter_4_channis_loyalitaet_und_lebensfreude": [
     {
-      "title": "Du: „Ich stehe immer zu meinen wahren Freunden“",
-      "sub": "19.08.2023 • Echtes Loyalitätsbekenntnis",
+      "title": "Deine Sprachnachricht",
+      "sub": "19.08.2023",
       "src": "audio/channi_loyalitaet.mp3"
     },
     {
-      "title": "Ich: „Du bist eine echt coole Socke“",
-      "sub": "22.06.2024 • Eine Hymne auf unsere Freundschaft",
+      "title": "Meine Sprachnachricht an dich",
+      "sub": "22.06.2024, 4:43 Uhr",
       "src": "audio/olli_coole_socke.mp3"
     }
   ],
   "chapter_5_dreissig_jahre_channi": [
     {
       "title": "Mein Geburtstagsgruß an dich",
-      "sub": "06.10.2026 • nach einem langen Tag",
+      "sub": "06.10.2026",
       "src": "audio/olli_geburtstagsgruess.mp3"
     }
   ]
