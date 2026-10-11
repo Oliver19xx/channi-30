@@ -3,8 +3,8 @@
 
 const STORY_DATA = {
   "meta": {
-    "title": "Für Channi: 9.5 Jahre Freundschaft",
-    "subtitle": "9.5 Jahre voller Leben, Lachen und echter Verbundenheit",
+    "title": "Für Channi: 9,5 Jahre Freundschaft",
+    "subtitle": "9,5 Jahre voller Leben, Lachen und echter Verbundenheit",
     "pin_code": "300417",
     "date_start": "2017-04-30",
     "date_end": "2026-10-06",
@@ -281,7 +281,7 @@ const STORY_DATA = {
     {
       "month": "2019-01",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -293,7 +293,7 @@ const STORY_DATA = {
     {
       "month": "2019-02",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -305,7 +305,7 @@ const STORY_DATA = {
     {
       "month": "2019-03",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -317,7 +317,7 @@ const STORY_DATA = {
     {
       "month": "2019-04",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -329,7 +329,7 @@ const STORY_DATA = {
     {
       "month": "2019-05",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -341,7 +341,7 @@ const STORY_DATA = {
     {
       "month": "2019-06",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -353,7 +353,7 @@ const STORY_DATA = {
     {
       "month": "2019-07",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -365,7 +365,7 @@ const STORY_DATA = {
     {
       "month": "2019-08",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 12,
       "olli": 6,
       "channi": 6,
@@ -377,7 +377,7 @@ const STORY_DATA = {
     {
       "month": "2019-09",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 17,
       "olli": 8,
       "channi": 9,
@@ -389,7 +389,7 @@ const STORY_DATA = {
     {
       "month": "2019-10",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 47,
       "olli": 27,
       "channi": 20,
@@ -401,7 +401,7 @@ const STORY_DATA = {
     {
       "month": "2019-11",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 1,
       "olli": 0,
       "channi": 1,
@@ -413,7 +413,7 @@ const STORY_DATA = {
     {
       "month": "2019-12",
       "year": 2019,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 7,
       "olli": 4,
       "channi": 3,
@@ -425,7 +425,7 @@ const STORY_DATA = {
     {
       "month": "2020-01",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 11,
       "olli": 10,
       "channi": 1,
@@ -437,7 +437,7 @@ const STORY_DATA = {
     {
       "month": "2020-02",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -449,7 +449,7 @@ const STORY_DATA = {
     {
       "month": "2020-03",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 15,
       "olli": 7,
       "channi": 8,
@@ -461,7 +461,7 @@ const STORY_DATA = {
     {
       "month": "2020-04",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -473,7 +473,7 @@ const STORY_DATA = {
     {
       "month": "2020-05",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -485,7 +485,7 @@ const STORY_DATA = {
     {
       "month": "2020-06",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 15,
       "olli": 7,
       "channi": 8,
@@ -497,7 +497,7 @@ const STORY_DATA = {
     {
       "month": "2020-07",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -509,7 +509,7 @@ const STORY_DATA = {
     {
       "month": "2020-08",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -521,7 +521,7 @@ const STORY_DATA = {
     {
       "month": "2020-09",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -533,7 +533,7 @@ const STORY_DATA = {
     {
       "month": "2020-10",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -545,7 +545,7 @@ const STORY_DATA = {
     {
       "month": "2020-11",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -557,7 +557,7 @@ const STORY_DATA = {
     {
       "month": "2020-12",
       "year": 2020,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -569,7 +569,7 @@ const STORY_DATA = {
     {
       "month": "2021-01",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -581,7 +581,7 @@ const STORY_DATA = {
     {
       "month": "2021-02",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -593,7 +593,7 @@ const STORY_DATA = {
     {
       "month": "2021-03",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -605,7 +605,7 @@ const STORY_DATA = {
     {
       "month": "2021-04",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -617,7 +617,7 @@ const STORY_DATA = {
     {
       "month": "2021-05",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 6,
       "olli": 4,
       "channi": 2,
@@ -629,7 +629,7 @@ const STORY_DATA = {
     {
       "month": "2021-06",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -641,7 +641,7 @@ const STORY_DATA = {
     {
       "month": "2021-07",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -653,7 +653,7 @@ const STORY_DATA = {
     {
       "month": "2021-08",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -665,7 +665,7 @@ const STORY_DATA = {
     {
       "month": "2021-09",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 29,
       "olli": 14,
       "channi": 15,
@@ -677,7 +677,7 @@ const STORY_DATA = {
     {
       "month": "2021-10",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 15,
       "olli": 5,
       "channi": 10,
@@ -689,7 +689,7 @@ const STORY_DATA = {
     {
       "month": "2021-11",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 66,
       "olli": 20,
       "channi": 46,
@@ -701,7 +701,7 @@ const STORY_DATA = {
     {
       "month": "2021-12",
       "year": 2021,
-      "phase": "Stille Begleiter & Channis Weg",
+      "phase": "Stille Begleiter & dein Weg",
       "total": 13,
       "olli": 8,
       "channi": 5,
@@ -857,7 +857,7 @@ const STORY_DATA = {
     {
       "month": "2023-01",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 168,
       "olli": 86,
       "channi": 82,
@@ -869,7 +869,7 @@ const STORY_DATA = {
     {
       "month": "2023-02",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 35,
       "olli": 16,
       "channi": 19,
@@ -881,7 +881,7 @@ const STORY_DATA = {
     {
       "month": "2023-03",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 151,
       "olli": 77,
       "channi": 74,
@@ -893,7 +893,7 @@ const STORY_DATA = {
     {
       "month": "2023-04",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 18,
       "olli": 8,
       "channi": 10,
@@ -905,7 +905,7 @@ const STORY_DATA = {
     {
       "month": "2023-05",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 219,
       "olli": 115,
       "channi": 104,
@@ -917,7 +917,7 @@ const STORY_DATA = {
     {
       "month": "2023-06",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 84,
       "olli": 52,
       "channi": 32,
@@ -929,7 +929,7 @@ const STORY_DATA = {
     {
       "month": "2023-07",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 284,
       "olli": 150,
       "channi": 134,
@@ -941,7 +941,7 @@ const STORY_DATA = {
     {
       "month": "2023-08",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 139,
       "olli": 71,
       "channi": 68,
@@ -953,7 +953,7 @@ const STORY_DATA = {
     {
       "month": "2023-09",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 144,
       "olli": 76,
       "channi": 68,
@@ -965,7 +965,7 @@ const STORY_DATA = {
     {
       "month": "2023-10",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 148,
       "olli": 72,
       "channi": 76,
@@ -977,7 +977,7 @@ const STORY_DATA = {
     {
       "month": "2023-11",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 46,
       "olli": 24,
       "channi": 22,
@@ -989,7 +989,7 @@ const STORY_DATA = {
     {
       "month": "2023-12",
       "year": 2023,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 18,
       "olli": 11,
       "channi": 7,
@@ -1001,7 +1001,7 @@ const STORY_DATA = {
     {
       "month": "2024-01",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 70,
       "olli": 40,
       "channi": 30,
@@ -1013,7 +1013,7 @@ const STORY_DATA = {
     {
       "month": "2024-02",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 68,
       "olli": 34,
       "channi": 34,
@@ -1025,7 +1025,7 @@ const STORY_DATA = {
     {
       "month": "2024-03",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 13,
       "olli": 8,
       "channi": 5,
@@ -1037,7 +1037,7 @@ const STORY_DATA = {
     {
       "month": "2024-04",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 155,
       "olli": 75,
       "channi": 80,
@@ -1049,7 +1049,7 @@ const STORY_DATA = {
     {
       "month": "2024-05",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 152,
       "olli": 68,
       "channi": 84,
@@ -1061,7 +1061,7 @@ const STORY_DATA = {
     {
       "month": "2024-06",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 158,
       "olli": 76,
       "channi": 82,
@@ -1073,7 +1073,7 @@ const STORY_DATA = {
     {
       "month": "2024-07",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 62,
       "olli": 25,
       "channi": 37,
@@ -1085,7 +1085,7 @@ const STORY_DATA = {
     {
       "month": "2024-08",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 50,
       "olli": 27,
       "channi": 23,
@@ -1097,7 +1097,7 @@ const STORY_DATA = {
     {
       "month": "2024-09",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 9,
       "olli": 4,
       "channi": 5,
@@ -1109,7 +1109,7 @@ const STORY_DATA = {
     {
       "month": "2024-10",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 35,
       "olli": 16,
       "channi": 19,
@@ -1121,7 +1121,7 @@ const STORY_DATA = {
     {
       "month": "2024-11",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -1133,7 +1133,7 @@ const STORY_DATA = {
     {
       "month": "2024-12",
       "year": 2024,
-      "phase": "Channis Loyalität & Gemeinsame Abenteuer",
+      "phase": "Deine Loyalität & gemeinsame Abenteuer",
       "total": 2,
       "olli": 1,
       "channi": 1,
@@ -1145,7 +1145,7 @@ const STORY_DATA = {
     {
       "month": "2025-01",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -1157,7 +1157,7 @@ const STORY_DATA = {
     {
       "month": "2025-02",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 16,
       "olli": 9,
       "channi": 7,
@@ -1169,7 +1169,7 @@ const STORY_DATA = {
     {
       "month": "2025-03",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 2,
       "olli": 1,
       "channi": 1,
@@ -1181,7 +1181,7 @@ const STORY_DATA = {
     {
       "month": "2025-04",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 2,
       "olli": 1,
       "channi": 1,
@@ -1193,7 +1193,7 @@ const STORY_DATA = {
     {
       "month": "2025-05",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 11,
       "olli": 6,
       "channi": 5,
@@ -1205,7 +1205,7 @@ const STORY_DATA = {
     {
       "month": "2025-06",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 65,
       "olli": 26,
       "channi": 39,
@@ -1217,7 +1217,7 @@ const STORY_DATA = {
     {
       "month": "2025-07",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 4,
       "olli": 2,
       "channi": 2,
@@ -1229,7 +1229,7 @@ const STORY_DATA = {
     {
       "month": "2025-08",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 19,
       "olli": 10,
       "channi": 9,
@@ -1241,7 +1241,7 @@ const STORY_DATA = {
     {
       "month": "2025-09",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 26,
       "olli": 13,
       "channi": 13,
@@ -1253,7 +1253,7 @@ const STORY_DATA = {
     {
       "month": "2025-10",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 17,
       "olli": 9,
       "channi": 8,
@@ -1265,7 +1265,7 @@ const STORY_DATA = {
     {
       "month": "2025-11",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 6,
       "olli": 5,
       "channi": 1,
@@ -1277,7 +1277,7 @@ const STORY_DATA = {
     {
       "month": "2025-12",
       "year": 2025,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 2,
       "olli": 1,
       "channi": 1,
@@ -1289,7 +1289,7 @@ const STORY_DATA = {
     {
       "month": "2026-01",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 29,
       "olli": 16,
       "channi": 13,
@@ -1301,7 +1301,7 @@ const STORY_DATA = {
     {
       "month": "2026-02",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -1313,7 +1313,7 @@ const STORY_DATA = {
     {
       "month": "2026-03",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 0,
       "olli": 0,
       "channi": 0,
@@ -1325,7 +1325,7 @@ const STORY_DATA = {
     {
       "month": "2026-04",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 2,
       "olli": 1,
       "channi": 1,
@@ -1337,7 +1337,7 @@ const STORY_DATA = {
     {
       "month": "2026-05",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 7,
       "olli": 4,
       "channi": 3,
@@ -1349,7 +1349,7 @@ const STORY_DATA = {
     {
       "month": "2026-06",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 9,
       "olli": 4,
       "channi": 5,
@@ -1361,7 +1361,7 @@ const STORY_DATA = {
     {
       "month": "2026-07",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 8,
       "olli": 3,
       "channi": 5,
@@ -1373,7 +1373,7 @@ const STORY_DATA = {
     {
       "month": "2026-08",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 7,
       "olli": 4,
       "channi": 3,
@@ -1385,7 +1385,7 @@ const STORY_DATA = {
     {
       "month": "2026-09",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 7,
       "olli": 2,
       "channi": 5,
@@ -1397,7 +1397,7 @@ const STORY_DATA = {
     {
       "month": "2026-10",
       "year": 2026,
-      "phase": "Channis 30. & Unsere Funkelmomente",
+      "phase": "Dein 30. & unsere Funkelmomente",
       "total": 4,
       "olli": 3,
       "channi": 1,
@@ -1412,25 +1412,25 @@ const STORY_DATA = {
       "id": "chapter_1_der_funke_von_tag_eins",
       "chapter_number": 1,
       "period": "April 2017 – Ende 2018",
-      "title": "Der Funke von Tag 1: Unser gemeinsamer Humor & die Maiwoche",
+      "title": "Der Funke von Tag 1: Unser Humor & die Maiwoche",
       "core_theme": "Die Geburt unserer Freundschaft auf derselben Wellenlänge",
-      "description": "Schon in den ersten Nachrichten zeigt sich Channis herrlich trockener Humor („Das ist nicht das Lied ?:D“). Nur zehn Tage später folgt Channis Einladung zur Osnabrücker Maiwoche – und legt den Grundstein für gemeinsame Feiernächte, legendäre Quatsch-Aktionen und eine Vertrautheit, die von Tag 1 an einfach da war.",
+      "description": "Schon in den ersten Nachrichten zeigt sich dein herrlich trockener Humor („Das ist nicht das Lied ?:D“). Nur zehn Tage später fragst du mich nach der Osnabrücker Maiwoche – der Grundstein für gemeinsame Feiernächte, legendäre Quatsch-Aktionen und eine Vertrautheit, die von Tag 1 an einfach da war.",
       "pivotal_events": [
         {
           "date": "2017-04-30",
-          "label": "Die erste Begegnung im Chat",
+          "label": "Unsere ersten Nachrichten",
           "sender": "Channi & Olli",
           "highlight_quote": "Das ist nicht das Lied ?:D",
           "context": "Channis unnachahmlich trockene Art bringt das Eis sofort zum Schmelzen.",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2017-05-10",
-          "label": "Channis Einladung zur Maiwoche",
+          "label": "Deine Einladung zur Maiwoche",
           "sender": "Channi",
           "highlight_quote": "Freitag Maiwoche?",
           "context": "Die Osnabrücker Maiwoche wird zum ersten festen gemeinsamen Ritual unseres Freundeskreises.",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2017-08-31",
@@ -1438,7 +1438,7 @@ const STORY_DATA = {
           "sender": "Wir",
           "highlight_quote": "Ich möchte mit dir mal in entspannter Umgebung feiern gehen.",
           "context": "Der August 2017 ist mit 142 Nachrichten unser erster großer gemeinsamer Sommermonat.",
-          "speaker": "Olli"
+          "speaker": "Ich"
         }
       ],
       "featured_audio": null
@@ -1447,18 +1447,18 @@ const STORY_DATA = {
       "id": "chapter_2_channis_herzblut_und_rueckhalt",
       "chapter_number": 2,
       "period": "2019 – 2021",
-      "title": "Channis Herzblut: Ihr Weg & ein unerschütterliches Band",
+      "title": "Dein Herzblut & ein unerschütterliches Band",
       "core_theme": "Channis Engagement für andere und unser stiller Rückhalt",
-      "description": "Channi geht ihren Weg mit großem Herzen – ob im Studium, bei der Arbeit mit Kindern und Müttern oder beim Tanzen. Auch wenn der Alltag mal fordernder ist, wissen wir beide: Wenn Hilfe gebraucht wird, ist der andere sofort da. Ein Anruf oder eine kurze Sprachnachricht genügt, und die Verbindung ist so stark wie am ersten Tag.",
+      "description": "Du gehst deinen Weg mit großem Herzen – ob im Studium, bei der Arbeit mit Kindern und Müttern oder beim Tanzen. Auch wenn der Alltag mal fordernder ist, wissen wir beide: Wenn Hilfe gebraucht wird, ist der andere sofort da. Ein Anruf oder eine kurze Sprachnachricht genügt, und die Verbindung ist so stark wie am ersten Tag.",
       "pivotal_events": [
         {
           "date": "2020-06-05",
-          "label": "Channis Uni-Einsatz: Füreinander da sein",
+          "label": "Dein Uni-Einsatz: Füreinander da sein",
           "sender": "Channi",
           "highlight_quote": "Hi, also es ist so, ich brauche zwei Seiten aus einem bestimmten Buch … ein Referat über Soziologie …",
           "context": "Channis Fleiß und Einsatz an der Uni – und wie selbstverständlich wir einander unterstützen.",
           "audio_file": "00000513-AUDIO-2020-06-05-15-29-00.opus",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2021-10-06",
@@ -1466,7 +1466,7 @@ const STORY_DATA = {
           "sender": "Wir",
           "highlight_quote": "Alles Gute zum Geburtstag 🥳",
           "context": "Egal wie viel Zeit vergeht: An Channis Ehrentag denken wir immer aneinander.",
-          "speaker": "Olli"
+          "speaker": "Ich"
         }
       ],
       "featured_audio": {
@@ -1482,16 +1482,16 @@ const STORY_DATA = {
       "period": "Herbst & Winter 2022",
       "title": "Unsere Seelenverwandtschaft: Der Rekord-Winter & unendliche Gespräche",
       "core_theme": "Tägliche Vertrautheit, Seelenstärkung und unzählige Lacher",
-      "description": "Im Herbst 2022 schweißt sich unsere Freundschaft auf ein ganz neues Level zusammen: Über 1.300 Nachrichten und stundenlange Sprachmemos in nur vier Monaten. Am 30. Dezember 2022 stellen wir mit 112 Nachrichten an einem Tag unseren Allzeit-Rekord auf. Doch das Schönste: Channis ehrliche Worte, wie viel ihr die Freundschaft und geschriebene Briefe im stressigen Alltag bedeuten.",
+      "description": "Im Herbst 2022 schweißt sich unsere Freundschaft auf ein ganz neues Level zusammen: über 1.300 Nachrichten und stundenlange Sprachnachrichten in nur vier Monaten. Am 30. Dezember 2022 stellen wir mit 112 Nachrichten an einem Tag unseren Allzeit-Rekord auf. Doch das Schönste: deine ehrlichen Worte, wie viel dir unsere Freundschaft und geschriebene Briefe im stressigen Alltag bedeuten.",
       "pivotal_events": [
         {
           "date": "2022-10-13",
-          "label": "Channis berührende Worte über geschriebene Briefe",
+          "label": "Deine berührenden Worte über meinen Brief",
           "sender": "Channi",
           "highlight_quote": "Deine Worte geben mir auf jeden Fall richtig viel. […] Danke dafür. Es ist ein schönes Antidepressivum auf Papier geschrieben, muss ich sagen.",
           "context": "Channi liest vor der Arbeit einen Brief durch und schickt eine dankbare Sprachnachricht.",
           "audio_file": "00001243-AUDIO-2022-10-13-12-35-49.opus",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2022-12-06",
@@ -1499,7 +1499,7 @@ const STORY_DATA = {
           "sender": "Wir",
           "highlight_quote": "Und man legt viel zu viel Wert auf materielle Dinge, obwohl gerade Zeit das schönste Geschenk ist, was man jemandem machen kann 😇",
           "context": "Die gemeinsame Erkenntnis, was im Leben und in einer Freundschaft wirklich zählt.",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2022-12-30",
@@ -1507,7 +1507,7 @@ const STORY_DATA = {
           "sender": "Channi & Olli",
           "highlight_quote": "Wollen wir vielleicht eine Playlist für Silvester erstellen? 🤓",
           "context": "Gemeinsame Vorfreude auf Silvester, Lachen und 112 Nachrichten voller Energie.",
-          "speaker": "Channi"
+          "speaker": "Du"
         }
       ],
       "featured_audio": {
@@ -1521,9 +1521,9 @@ const STORY_DATA = {
       "id": "chapter_4_channis_loyalitaet_und_lebensfreude",
       "chapter_number": 4,
       "period": "2023 – 2024",
-      "title": "Ein Fels in der Brandung: Channis Loyalität & ansteckende Lebensfreude",
+      "title": "Ein Fels in der Brandung: Deine Loyalität & ansteckende Lebensfreude",
       "core_theme": "Bedingungsloser Zusammenhalt, gemeinsame Abenteuer & Channis Begeisterung",
-      "description": "Channi beweist, was wahre Freundschaft ausmacht: Wenn es hart auf hart kommt, steht sie bedingungslos hinter ihren Freunden („Ich stehe immer zu meinen wahren Freunden“). Zusammen packen wir bei handwerklichen Pflaster-Einsätzen im Garten an. Und Channi zeigt ihre wunderbare Gabe, sich wie ein Schneekönig über die kleinen Herzensdinge im Leben zu freuen – wie die gehäkelte Positive Potato.",
+      "description": "Du zeigst, was wahre Freundschaft ausmacht: Wenn es hart auf hart kommt, stehst du bedingungslos hinter deinen Freunden („Ich stehe immer zu meinen wahren Freunden“). Beim Pflastern im Garten packen wir zusammen an. Und du hast diese wunderbare Gabe, dich wie ein Schneekönig über die kleinen Herzensdinge im Leben zu freuen – wie über die gehäkelte Positive Potato.",
       "pivotal_events": [
         {
           "date": "2023-07-06",
@@ -1531,16 +1531,16 @@ const STORY_DATA = {
           "sender": "Wir",
           "highlight_quote": "Jaaa aber fürs Pflastern dürfte es ruhig etwas kälter sein 🥲",
           "context": "Echte Freunde helfen sich gegenseitig – auch mit Steinen und Schaufeln.",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2023-08-19",
-          "label": "Channis unerschütterliche Loyalität (Audio)",
+          "label": "Deine unerschütterliche Loyalität (Audio)",
           "sender": "Channi",
           "highlight_quote": "Erstmal stehe ich natürlich immer zu dir, also ich stehe immer zu meinen wahren Freunden, von daher brauchst du dich dafür natürlich nicht bedanken.",
           "context": "Channis klares, loyales Bekenntnis – ein Moment von unschätzbarem Wert.",
           "audio_file": "00003348-AUDIO-2023-08-19-02-53-45.opus",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2023-10-07",
@@ -1548,15 +1548,15 @@ const STORY_DATA = {
           "sender": "Channi & Olli",
           "highlight_quote": "Wollte mich einmal ganz herzlich für euer Hammer Geschenk bedanken! 🫶🏽",
           "context": "Ehrliche, ungekünstelte Wertschätzung füreinander.",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2024-05-25",
-          "label": "Channis ansteckende Freude: Die Positive Potato",
+          "label": "Deine ansteckende Freude: Die Positive Potato",
           "sender": "Channi",
           "highlight_quote": "Ich habe meine Positive Potato bekommen. […] Also Zucker, Zucker, Zucker süß. Dankeschön.",
           "context": "Channis herzliche Reaktion auf die kleine gehäkelte Mutmacher-Kartoffel (Positive Potato Pocket Hug).",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2024-06-22",
@@ -1565,7 +1565,7 @@ const STORY_DATA = {
           "highlight_quote": "Du bist eine echt coole Socke. Und ich bin froh, dass ich dich hab.",
           "context": "Auf den Punkt gebracht, was diese Freundschaft ausmacht.",
           "audio_file": "00004324-AUDIO-2024-06-22-04-43-50.opus",
-          "speaker": "Olli"
+          "speaker": "Ich"
         }
       ],
       "featured_audio": {
@@ -1579,34 +1579,34 @@ const STORY_DATA = {
       "id": "chapter_5_dreissig_jahre_channi",
       "chapter_number": 5,
       "period": "2025 – Oktober 2026",
-      "title": "30 Jahre Channi: Sternchen, Fürsorge & unendliche Funkelmomente",
+      "title": "Du wirst 30: Sternchen, Fürsorge & unendliche Funkelmomente",
       "core_theme": "Channis Ehrentag, ihre Einzigartigkeit und der Blick in die Zukunft",
-      "description": "Channi wird 30 – und ist dabei ganz sie selbst: Für ihre eigene Party bestellt sie extra vegane Miniburger, damit Olli trotz Allergie richtig mitessen kann („Ist mir wichtig 😇🫶🏽“). Sie denkt einfach immer an alle. Zum Geburtstag gibt es ein Sternchen-Lebkuchenherz, süßen Nougat und einen Spieleblock für viele gemeinsame Spieleabende.",
+      "description": "Du wirst 30 – und bleibst dabei ganz du selbst: Für deine eigene Party bestellst du extra vegane Miniburger, damit ich trotz Allergie richtig mitessen kann („Ist mir wichtig 😇🫶🏽“). Du denkst einfach immer an alle. Zum Geburtstag gibt es von mir ein Sternchen-Lebkuchenherz, süßen Nougat und einen Spieleblock für viele gemeinsame Spieleabende.",
       "pivotal_events": [
         {
           "date": "2026-09-27",
-          "label": "Typisch Channi: Fürsorge für alle",
+          "label": "Typisch du: Fürsorge für alle",
           "sender": "Channi",
           "highlight_quote": "Ich habe für meinen Geburtstag jetzt auch vegane Miniburger bestellt, damit du auch eine „Hauptspeise“ richtig essen kannst … Ist mir wichtig 😇🫶🏽",
           "context": "Channis feinfühlige Art: Sie vergisst niemanden und sorgt für alle mit Liebe.",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2026-09-30",
-          "label": "Channis Wunsch nach Funkelmomenten",
+          "label": "Dein Wunsch für mich: Funkelmomente",
           "sender": "Channi",
           "highlight_quote": "Alles Glück der Welt und viele wunderschöne Funkelmomente für dein Leben ✨",
           "context": "Channis zauberhafter Wunsch – der jetzt zu ihrem eigenen Geburtstag an sie zurückgegeben wird.",
-          "speaker": "Channi"
+          "speaker": "Du"
         },
         {
           "date": "2026-10-06",
-          "label": "Channis 30. Geburtstag",
+          "label": "Dein 30. Geburtstag",
           "sender": "Wir",
           "highlight_quote": "Ich hoffe, du hattest heute einen wunderschönen Tag. Den hast du auf jeden Fall verdient.",
           "context": "Gemeinsame Vorfreude auf die große Party und 9,5 Jahre gefeierte Freundschaft.",
           "audio_file": "00004767-AUDIO-2026-10-06-19-21-01.opus",
-          "speaker": "Olli"
+          "speaker": "Ich"
         }
       ],
       "featured_audio": {
@@ -1621,34 +1621,34 @@ const STORY_DATA = {
 const AUDIO_MAPPING = {
   "chapter_2_channis_herzblut_und_rueckhalt": [
     {
-      "title": "Channi über ihr Uni-Referat",
+      "title": "Deine Sprachnachricht zum Uni-Referat",
       "sub": "05.06.2020 • Soziologie & gegenseitige Unterstützung",
       "src": "audio/channi_uni_memo.mp3"
     }
   ],
   "chapter_3_unsere_seelenverwandtschaft": [
     {
-      "title": "Channi: „Antidepressivum auf Papier“",
+      "title": "Du: „Antidepressivum auf Papier“",
       "sub": "13.10.2022 • Über die Kraft geschriebener Worte",
       "src": "audio/channi_brief_antidepressivum.mp3"
     }
   ],
   "chapter_4_channis_loyalitaet_und_lebensfreude": [
     {
-      "title": "Channi: „Ich stehe immer zu meinen wahren Freunden“",
+      "title": "Du: „Ich stehe immer zu meinen wahren Freunden“",
       "sub": "19.08.2023 • Echtes Loyalitätsbekenntnis",
       "src": "audio/channi_loyalitaet.mp3"
     },
     {
-      "title": "Olli: „Du bist eine echt coole Socke“",
+      "title": "Ich: „Du bist eine echt coole Socke“",
       "sub": "22.06.2024 • Eine Hymne auf unsere Freundschaft",
       "src": "audio/olli_coole_socke.mp3"
     }
   ],
   "chapter_5_dreissig_jahre_channi": [
     {
-      "title": "Ollis Geburtstagsgruß",
-      "sub": "06.10.2026 • Olli, nach einem langen Tag",
+      "title": "Mein Geburtstagsgruß an dich",
+      "sub": "06.10.2026 • nach einem langen Tag",
       "src": "audio/olli_geburtstagsgruess.mp3"
     }
   ]
